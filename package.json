@@ -1,0 +1,26 @@
+{
+  "name": "are-you-ready-clone",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^3.8.0",
+    "grommet": "^1.3.4",
+    "ramda": "^0.23.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.44.2",
+    "react-scripts": "0.9.5",
+    "@kadira/storybook": "^2.21.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  }
+}
